@@ -1,0 +1,30 @@
+.crud {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cruds {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 8px;
+  cursor: pointer;
+}
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  color: rgba(var(--i30, 237, 73, 86), 1);
+  font-weight: 700;
+  border-bottom: 1px solid #dbdbdb;
+  width: 100%;
+
+  align-items: center;
+}
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #dbdbdb;
+  width: 100%;
+}

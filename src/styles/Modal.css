@@ -1,0 +1,78 @@
+.modalheader {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100vh;
+}
+.modalavatar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.onlyavatar {
+  display: flex;
+  /* flex-direction: row; */
+  width: 100%;
+  padding: 15px 15px;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  font-size: 19px;
+  /* width: 100%; */
+}
+.bottomavatar {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #dbdbdb;
+  justify-content: flex-start;
+  width: 19rem;
+  height: 45vh;
+}
+.socks {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-left: 10px;
+  height: 3vh;
+  font-size: 80%;
+}
+.icoons {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #dbdb;
+  width: 17.1rem;
+  /* height: 10vh; */
+  /* padding-left: 5px; */
+  justify-content: space-between;
+  padding: 13px 15px;
+  align-items: end;
+}
+.heart {
+  display: flex;
+  flex-direction: row;
+  width: 3rem;
+}
+.likeavatar {
+  display: flex;
+  flex-direction: row;
+  width: 19rem;
+  border-bottom: 1px solid #dbdb;
+}
+.smileinput {
+  display: flex;
+  flex-direction: row;
+  width: 22rem;
+  /* height: 6rem; */
+  justify-content: center;
+  /* padding-right: 33px; */
+  padding: 6px 5px;
+  margin-left: -30px;
+}
+.cross{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+}
